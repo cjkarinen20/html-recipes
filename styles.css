@@ -1,6 +1,35 @@
+body{
+    background-color: antiquewhite;
+}
 .card{
     width: 800px;
-    background-color: cadetblue;
-    margin: 0 auto;
+    background-color: burlywood;
+    margin: auto;
     padding: 10px;
+}
+.card.recipe{
+
+}
+.card.homepage{
+
+}
+.recipe-title{
+    text-align: center;
+}
+.recipe-tagline{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header
+ {
+    text-align: left;
+ }
+img{
+    width: 350px;
+    height: 350px;
 }
